@@ -1,0 +1,55 @@
+* {   box-sizing: border-box;
+    font-family: 'Lato', sans-serif;}
+    body {
+        padding: 10px;
+        background-color:#97799A
+    }
+
+.jogador1 {
+    width: 100%; float: left; text-align: left;height: 200px;
+    background-color:#E15554 ;
+    padding: 10px;
+    border: solid 5px white;
+    margin-bottom: 10px;
+    display: block;
+}
+.jogador2 {
+    width: 100%; float: left; text-align: left;height: 200px;
+    background-color:#4D9DE0 ;
+    padding: 10px;
+    border: solid 5px white;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.resultado1 {
+    width: 100%; float: left; text-align: left;height: 300px;
+    background-color:#E1BC29 ;
+    padding: 10px;
+    border: solid 5px white;
+    display: block;
+    margin-bottom: 10px;
+}
+.btn1 {
+    margin-bottom: 10px;
+}
+#ind1 {
+    float: left;
+    margin: 0em;
+}
+#ponto1 {
+    float: left;
+    width: 85%;
+    text-align: left;
+    color: red;
+    margin: 0em;
+}
+#ind2 {
+    float: left;
+}
+#ponto2 {
+    float: left;
+    width: 85%;
+    text-align: left;
+    color: red;
+}

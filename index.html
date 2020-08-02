@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="jogador11" class="jogador1">
+<h1>Jogador 1</h1>
+<h2>Selecione pedra, papel ou tesoura.</h2>
+
+<select id="mySelect1" onchange="myFunction1()">
+  <option value="select">select
+  <option value="pedra">Pedra
+  <option value="papel">Papel
+  <option value="tesoura">Tesoura
+</select>
+
+</div>
+<div id="jogador22" class="jogador2">
+    <h1>Jogador 2</h1>
+    <h2>Selecione pedra, papel ou tesoura.</h2>
+    <select id="mySelect2" onchange="myFunction2()">
+        <option value="select">select
+        <option value="pedra">Pedra
+        <option value="papel">Papel
+        <option value="tesoura">Tesoura
+      </select>
+</div>
+
+<div id="resultado1" class="resultado1">
+    <h1>Pontuação:</h1>
+    <h2 id="ind1">Jogador1 pontos: </h2>
+    <h2 id="ponto1">0</h2>
+    <br>
+    <h2 id="ind2">Jogador2 pontos: </h2>
+    <h2 id="ponto2">0</h2>
+    <div  id="algo">
+    <h2>Selecione acima </h2>
+    </div>  
+        
+   
+    <button class="btn1" onclick="recarregar()">
+        cadastrar
+    </button>
+</div>
+
+
+
+<script src="script.js">
+       
+</script>
+
+</body>
+</html>
+
